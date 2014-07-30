@@ -25,3 +25,7 @@ SpiderDancer.prototype.setPosition = function(top, left) {
   };
   this.$node.css(styleSettings);
 }; // end setPosition
+
+SpiderDancer.prototype.lineUp = function() {
+  this.leftPos = Dancer.prototype.lineUp.call(this); // old version of step function
+} // end lineUp()

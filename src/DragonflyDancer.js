@@ -3,6 +3,7 @@ var DragonflyDancer = function(top, left, timeBetweenSteps){
   this.timeBetweenSteps = (this.timeBetweenSteps * 1.5);
   this.image = '<img src="./image/dragonfly.gif"></img>';
   this.$node.append(this.image);
+  this.$node.addClass('dragonfly');
   this.topPos = top;
   this.creep = -50;
 };

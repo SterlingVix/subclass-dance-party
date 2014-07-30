@@ -28,3 +28,7 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.btnLineUp{
+  position:relative;
+  left:50%;
+}
